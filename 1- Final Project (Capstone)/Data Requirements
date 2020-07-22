@@ -1,0 +1,7 @@
+The data required will be foursquare location data.
+
+The objective is to find the number of people that visit each spot and to find the popular hotspots around the city.
+
+We should also check for any popular competitors present in the area.
+
+In this way, we can find an optimal balance of location popularity and lack of competition.

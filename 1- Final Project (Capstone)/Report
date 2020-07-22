@@ -1,0 +1,31 @@
+FINAL REPORT
+
+Introdcution to the business case:
+In today's world, in order to setup a business, one of the most important part of research is to find a suitable location.
+My code is to help you do just that.
+
+
+Data Required:
+The preliminary task will be to find the popular hotspots around Toronto City. These include Tourist spots, Residential spots, Industrial or Office locations and Business spots for small time businesses. This can be done by a quick Google Search.
+That will give us the most popular spots around Toronto, we can also quickly google their Postal Codes.
+The data we will be using will be retrieved from Four Square API. 
+After processing this data, we will find the most popular types of businesses available in the area.
+
+Methodology:
+The data retrieved from FourSquare API will be scanned to check the occurances of a type of business located in the vicinity of our desired area.
+Example: If you wanted to open a coffee shop, we will retrieve the data across the popular location and scan the frequency of coffee shops across the locations. This will help you choose an area which is both popular and has less competition overall by other coffee shops.
+
+Result:
+As per the above analysis of the data, we can see the top 10 locations around the popular tourist spots that we have chosen. If someone was planning to open a Coffee Shop for example, then opening one around Art Gallery or Ontario would not be such a good idea.
+Since there are already so many Coffee Shops and Cafes present in the area, setting your business up in the Area will be difficult as you will have a lot of competing stores.
+
+On the other hand, setting up a Coffee Shop around Toronto Zoo, Woodbine Beach, Scarborough Bluffs and High Park would be ideal, as Coffee shops are less frequently spotted in the area. 
+Thus it is an ideal spot for a new business to flourish.
+
+Discussion:
+The choice of locations was limited to tourist locations since these locations are mostly popular all year round. These locations are visitedby local and by international travellers.
+My foursquare account is a free sandbox account. The types of data I can retrieve is restricted to the free regular endpoint options.
+Having the access to retrieve different type of data can allow us to decide the cities hotspots by the number of actual visits each spot gets.
+
+Conclusion:
+In conclusion, the program designed works pretty well to find the rarity of the type of venues across different tourist locations.
